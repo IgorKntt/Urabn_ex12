@@ -21,9 +21,9 @@ const baseConfig = {
         ],
     },
     resolve: {
-        extensions: ['.ts'],
+        extensions: ['.js', '.ts', '.tsx'],
         alias: {
-            '@': path.resolve(__dirname, 'src/'),
+            Src: path.resolve(__dirname, 'src/'),
         }
     },
     output: {
